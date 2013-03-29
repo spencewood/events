@@ -171,7 +171,7 @@
     Events.unbind = Events.off;
 
     if(typeof define === 'function' && define['amd']){
-        define(function(){
+        define(['underscore'], function(){
             return Events;
         });
     }
