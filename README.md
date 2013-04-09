@@ -27,7 +27,7 @@ require.config({
         underscore: 'lib/lodash'
     }
     ...
-})
+});
 ```
 
 Or just use it in the global context:
@@ -35,7 +35,7 @@ Or just use it in the global context:
 ```javascript
 $(function (){
     Events.trigger('ready');
-})
+});
 ```
 
 All credit goes to the original Backbone developers.
